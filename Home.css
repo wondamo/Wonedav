@@ -1,0 +1,78 @@
+.top{
+    width: 100%;
+    border-bottom: 2.5pt solid;
+    border-color: rgb(110, 13, 106);
+}
+#navbar{
+    font-size: 16px;
+    margin-left: 50px;
+}
+.lis{
+    font-size: 18px;
+}
+.car{
+    height: 500px;
+    border-bottom: 4px solid purple;
+}
+.cari{
+    text-align: center;
+    height: 80px;
+    color: white;
+    font-size: 35px;
+}
+.card{
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, .1);
+    margin-bottom: 80px;
+}
+h5{
+    color: rgb(110,13,106);
+}
+.mid{
+    color: #f5fafa;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: rgb(110,13,106);
+}
+.mid:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: top left;
+    transform: skewY(-3deg);
+}
+p{
+    color: rgb(128,26,124);
+}
+.foo{
+    border: 2px solid rgb(191 89 187 / 20%);
+    border-radius: 5px;
+}
+.section-3{
+    background-color: #a3a6aa;
+    padding: 80px;
+    padding-bottom: 0;
+    margin-top: 70px;
+}
+#btn{
+    background: #972d93;
+    border-radius: 10px;
+}
+#btn:hover{
+    background: #823880;
+}
+.mine{
+    font-size: 18px;
+    font-weight: bold;
+}
+.teen{
+    box-shadow: 0 0 1rem rgba(255,255,255,.8);
+}
